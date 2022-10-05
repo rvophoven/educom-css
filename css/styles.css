@@ -1,27 +1,19 @@
-.site-font {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:  16px;
+a{
+    background-color: rgba(0,0,0,1);
+    font-size: 30px;
+    font-weight: bold;
 }
-.site-color{
-background-color: indigo;
-color: #FFF;
+a:link{
+    color:red;
 }
-.site-square{
-    width: 200px;
-    height: 200px;
+a:visited{
+    color:green;
 }
-
-.site-font2 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:  30px;
-    text-align: center;
+a:hover{
+    color:rgba(255, 0, 255, 0.5);
+    background-color: rgba(0,0,0,0.2);
 }
-.site-color2{
-background-color: rgb(0, 0, 255);
-color: rgb(255,0,0);
-}
-.site-square2{
-    width: 400px;
-    height: 400px;
-    border-radius: 200px;
+a:active{
+    color:blue;
+    background-color: rgba(255, 255, 255, 1);
 }
