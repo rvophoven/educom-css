@@ -23,6 +23,23 @@ html,body{
   right: 20px;
   display: inline-block;
 }
+/*drop down menu*/
+.menu:hover{
+  background-color: rgba(160,160,160,0.5);
+}
+.menu:hover .dropdown{
+  top: 0px;
+}
+.dropdown{
+  position: fixed;
+  top: -400px;
+  right: 0%;
+  height: 200px;
+  width: 150px;
+  background-color: rgba(160,160,160,0.5);
+  transition: all 0.4s ease;
+  padding: 40px;
+}
 /*..............content section...............*/
 /*define content*/
 .content{
