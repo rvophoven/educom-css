@@ -1,17 +1,29 @@
- .cascading-parent{
-        font-weight: bold;
-        color: #FFF;
-        width: 400px;
-        height: 400px;
-        background-color: rgba(255,0,0,1);
-    }
+a{
+    font-size: 22px;
+    color: #F0F;
+}
 
-.cascading-child{
+.cascading-parent h2{
+    color: #FD0;
+}
 
-    background-color: rgba(0,255,0,1);
-    width: 200px;
-    height: 200px;
-    color: #FF0;
-    display: inline-block;
+.cascading-parent a{
+    font-size: 32px;
+    color: #CCC;
+}
+
+.cascading-child h3{
+    color: rgb(0,200,100);
+}
+
+.cascading-child h6{
+    font-size: 10px;
+    color: rgb(0,0,200);
+}
+
+.cascading-child a{
+    font-size: 40px;
+    color: rgb(255,0,0);
+    font-family: Arial, Helvetica, sans-serif;
 
 }
