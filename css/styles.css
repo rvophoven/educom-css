@@ -1,9 +1,17 @@
- .red-square{
-        width: 80px;
-        height: 80px;
+ .cascading-parent{
+        font-weight: bold;
         color: #FFF;
-        margin: 10px;
-        font-size: 14px;
-        background-color: rgba(255,0,0,0.4);
-        display: inline-block;
+        width: 400px;
+        height: 400px;
+        background-color: rgba(255,0,0,1);
     }
+
+.cascading-child{
+
+    background-color: rgba(0,255,0,1);
+    width: 200px;
+    height: 200px;
+    color: #FF0;
+    display: inline-block;
+
+}
