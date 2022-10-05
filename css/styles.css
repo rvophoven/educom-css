@@ -1,19 +1,47 @@
-a{
-    background-color: rgba(0,0,0,1);
-    font-size: 30px;
-    font-weight: bold;
+:root{
+
+    /*Font*/
+    --regular: "Arial";
+    --special: "Franklin"
+    /*Color*/
+    --dark-brown: #402214;
+    --lighter-brown:  #774231;
+    --lightest-brown: #aa4b1b;
+
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+
+    --white: #FFF;
+    --black: #000;
+
+    --green: #009000;
+    --blue: #000099;
+
+    --mid: 50%;
+    --top: 10%;
+
+    --small: 10px;
+    --big: 20px;
+
+    --bold: "Bold"
+
 }
-a:link{
-    color:red;
+
+h1{
+    font-family: var(--regular);
+    color: var(--darker-red);
 }
-a:visited{
-    color:green;
+h3{
+    font-family: var(--special);
+    color: var(--green);
+    margin: var(--top);
+    padding: var(--small);
+    font-style: var(--bold);
+    background-color: var(--lighter-brown);
 }
-a:hover{
-    color:rgba(255, 0, 255, 0.5);
-    background-color: rgba(0,0,0,0.2);
-}
-a:active{
-    color:blue;
-    background-color: rgba(255, 255, 255, 1);
+h4{
+    font-family: var(--special);
+    color: var(--blue);
+    margin: var(--mid);
+    padding: var(--big);
 }
